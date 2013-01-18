@@ -46,8 +46,8 @@
 #ifndef __OPENCV_CORE_HPP__
 #define __OPENCV_CORE_HPP__
 
-#include "opencv2/core/types_c.h"
-#include "opencv2/core/version.hpp"
+#include "core/types_c.h"
+#include "core/version.hpp"
 
 #ifdef __cplusplus
 
@@ -4655,7 +4655,7 @@ protected:
 
 #endif // __cplusplus
 
-#include "opencv2/core/operations.hpp"
-#include "opencv2/core/mat.hpp"
+#include "core/operations.hpp"
+#include "core/mat.hpp"
 
 #endif /*__OPENCV_CORE_HPP__*/

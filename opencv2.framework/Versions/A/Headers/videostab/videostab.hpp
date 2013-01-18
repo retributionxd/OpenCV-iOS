@@ -49,7 +49,7 @@
 #ifndef __OPENCV_VIDEOSTAB_HPP__
 #define __OPENCV_VIDEOSTAB_HPP__
 
-#include "opencv2/videostab/stabilizer.hpp"
-#include "opencv2/videostab/ring_buffer.hpp"
+#include "videostab/stabilizer.hpp"
+#include "videostab/ring_buffer.hpp"
 
 #endif

@@ -181,7 +181,7 @@ CV_INLINE IppiSize ippiSize(int width, int height)
 #    pragma GCC diagnostic ignored "-Wshadow"
 #  endif
 #  include <Eigen/Core>
-#  include "opencv2/core/eigen.hpp"
+#  include "core/eigen.hpp"
 #endif
 
 #ifdef __cplusplus

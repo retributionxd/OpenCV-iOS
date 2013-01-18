@@ -43,12 +43,12 @@
 #ifndef __OPENCV_HYBRIDTRACKER_H_
 #define __OPENCV_HYBRIDTRACKER_H_
 
-#include "opencv2/core/core.hpp"
-#include "opencv2/core/operations.hpp"
-#include "opencv2/imgproc/imgproc.hpp"
-#include "opencv2/features2d/features2d.hpp"
-#include "opencv2/video/tracking.hpp"
-#include "opencv2/ml/ml.hpp"
+#include "core/core.hpp"
+#include "core/operations.hpp"
+#include "imgproc/imgproc.hpp"
+#include "features2d/features2d.hpp"
+#include "video/tracking.hpp"
+#include "ml/ml.hpp"
 
 #ifdef __cplusplus
 

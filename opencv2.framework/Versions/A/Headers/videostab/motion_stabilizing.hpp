@@ -45,8 +45,8 @@
 
 #include <vector>
 #include <utility>
-#include "opencv2/core/core.hpp"
-#include "opencv2/videostab/global_motion.hpp"
+#include "core/core.hpp"
+#include "videostab/global_motion.hpp"
 
 namespace cv
 {

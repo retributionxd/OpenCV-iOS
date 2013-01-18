@@ -45,7 +45,7 @@
 
 #include <vector>
 #include <string>
-#include "opencv2/core/core.hpp"
+#include "core/core.hpp"
 
 namespace cv
 {

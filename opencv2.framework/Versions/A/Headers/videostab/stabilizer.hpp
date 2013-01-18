@@ -45,15 +45,15 @@
 
 #include <vector>
 #include <ctime>
-#include "opencv2/core/core.hpp"
-#include "opencv2/imgproc/imgproc.hpp"
-#include "opencv2/videostab/global_motion.hpp"
-#include "opencv2/videostab/motion_stabilizing.hpp"
-#include "opencv2/videostab/frame_source.hpp"
-#include "opencv2/videostab/log.hpp"
-#include "opencv2/videostab/inpainting.hpp"
-#include "opencv2/videostab/deblurring.hpp"
-#include "opencv2/videostab/wobble_suppression.hpp"
+#include "core/core.hpp"
+#include "imgproc/imgproc.hpp"
+#include "videostab/global_motion.hpp"
+#include "videostab/motion_stabilizing.hpp"
+#include "videostab/frame_source.hpp"
+#include "videostab/log.hpp"
+#include "videostab/inpainting.hpp"
+#include "videostab/deblurring.hpp"
+#include "videostab/wobble_suppression.hpp"
 
 namespace cv
 {
