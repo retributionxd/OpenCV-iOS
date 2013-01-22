@@ -13,7 +13,8 @@ Pod::Spec.new do |s|
     :tag => "0.0.2"
   }
   s.platform     = :ios
-
-  s.source_files = 'opencv2.framework/Versions/A/Headers/*'
+  s.frameworks   = 'AVFoundation', 'CoreMedia', 'CoreVideo', 'QuartzCore', 'Accelerate', 'AssetsLibrary', 'CoreImage', 'CoreGraphics'
+  s.source_files = 'opencv2.framework/*'
   s.library = 'opencv2'
+  s.header_mappings_dir = '.'
 end
